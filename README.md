@@ -36,3 +36,5 @@ Configure o application.properties com os dados do seu banco
 Execute o projeto via IDE ou terminal com mvn spring-boot:run
 
 Teste os endpoints via Postman, Insomnia ou cURL
+
+Integrantes:  Cleverson Fernando de Lacerda Vilar
