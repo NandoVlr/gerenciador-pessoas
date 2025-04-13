@@ -37,4 +37,4 @@ Execute o projeto via IDE ou terminal com mvn spring-boot:run
 
 Teste os endpoints via Postman, Insomnia ou cURL
 
-Integrantes:  Cleverson Fernando de Lacerda Vilar
+Integrantes:  Cleverson Fernando de Lacerda Vilar, Pedro Henrique Pereira Sales 
