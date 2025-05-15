@@ -8,7 +8,6 @@ import java.util.List; // Importa a classe List para usar como tipo de retorno
 public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
 
     // Método customizado que busca pessoas pelo nome, ignorando maiúsculas e minúsculas
-    // O nome 'findByNomeContainingIgnoreCase' segue o padrão de nomenclatura do Spring Data JPA
     List<Pessoa> findByNomeContainingIgnoreCase(String nome);
     List<Pessoa> findByNomeStartingWithAndIdadeGreaterThan(String nome, int idade);
 
